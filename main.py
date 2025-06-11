@@ -143,7 +143,7 @@ def geolocate_image():
     payload = {
         "TOKEN": API_TOKEN,
         "IMAGE": encoded_image,
-        "TOP_K": 5,
+        "TOP_K": 10,
         "Center_LATITUDE": None,
         "Center_LONGITUDE": None,
         "RADIUS": None
